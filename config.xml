@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>sitemapgooglerestrictions</name>
+	<displayName><![CDATA[Sitemap with Google restrictions]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Sitemap generator with Google restrictions]]></description>
+	<author><![CDATA[Patryk Nietyksza]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
