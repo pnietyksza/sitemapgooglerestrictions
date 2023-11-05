@@ -1,0 +1,8 @@
+sitemap_google_restriction_form:
+  path: /sitemapgooglerestriction/config
+  methods: [POST,GET]
+  defaults: 
+    _controller:
+      'PrestaShop\Module\sitemapgooglerestriction\Controller\SitemapGoogleRestrictionConfigurationController::index'
+    _legacy_controller: AdminSitemapGoogleRestriction
+    _legacy_link: AdminSitemapGoogleRestriction
