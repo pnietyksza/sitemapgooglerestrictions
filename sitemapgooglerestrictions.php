@@ -77,4 +77,11 @@ class SitemapGoogleRestrictions extends Module
             ]
         ];
     }
+    
+    public function getContent() : void
+    {
+        $route = SymfonyContainer::getInstance()->get('router')->generate('sitemap_google_restriction_form');
+
+        Tools::redirectAdmin($route);
+    }
 }

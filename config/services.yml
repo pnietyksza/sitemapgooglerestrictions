@@ -1,2 +1,7 @@
 services:
-  
+  sitemapgooglerestrictions.form.type:
+    class: SitemapGoogleRestrictions\Form\Type\ConfigurationForm
+
+  sitemapgooglerestrictions.form.handler:
+    class: SitemapGoogleRestrictions\Form\ConfigurationHandler
+    

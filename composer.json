@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "<YourNamespace>\\": "src/"
+            "PrestaShop\\Module\\sitemapgooglerestrictions\\": "src/"
         },
         "classmap": [
             "<file>.php",
